@@ -3,6 +3,10 @@
   "cc_menu_descr" : "",
   "cc_slider" : "Coins",
   "cc_slider_descr" : "",
+  "cc_set": "Set",
+  "cc_set_descr": "",
   "cc_add" : "Add",
-  "cc_add_descr" : ""
+  "cc_add_descr" : "",
+  "cc_remove": "Remove",
+  "cc_remove_descr": ""
 }

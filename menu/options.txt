@@ -13,7 +13,7 @@
       "value" : "slider_value",
       "default_value" : 10,
       "max" : 800,
-      "min" : 1,
+      "min" : 0,
       "step" : 1,
     },
     {
@@ -22,10 +22,24 @@
     },
     {
       "type" : "button",
+      "id" : "cc_set",
+      "title" : "cc_set",
+      "description" : "cc_set_descr",
+      "callback" : "callback_cc_set"
+    },
+    {
+      "type" : "button",
       "id" : "cc_add",
       "title" : "cc_add",
       "description" : "cc_add_descr",
       "callback" : "callback_cc_add"
+    },
+    {
+      "type" : "button",
+      "id" : "cc_remove",
+      "title" : "cc_remove",
+      "description" : "cc_remove_descr",
+      "callback" : "callback_cc_remove"
     }
   ]
 }

@@ -1,7 +1,7 @@
-# Add Continental Coins
+# Continental Coins
 ### _Payday 2 Mod_
 
-Simple mod that add continental coins to your balance.
+Simple mod that allows to modify your current balance of continental coins.
 Go to _Mod Options_ > _Continental Coins_
 
 ## Requirements
