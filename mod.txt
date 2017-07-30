@@ -1,0 +1,12 @@
+{
+  "name" : "Add Continental Coins",
+  "description" : "",
+  "author" : "It's a-me, Mario !",
+  "version" : "1.0",
+  "hooks" : [
+    {
+      "hook_id" : "lib/managers/menumanager",
+      "script_path" : "lua/cc.lua"
+    }
+  ]
+}

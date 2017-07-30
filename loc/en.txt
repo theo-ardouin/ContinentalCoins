@@ -1,0 +1,8 @@
+{
+  "cc_menu_title" : "Continental Coins",
+  "cc_menu_descr" : "",
+  "cc_slider" : "Coins",
+  "cc_slider_descr" : "",
+  "cc_add" : "Add",
+  "cc_add_descr" : ""
+}
