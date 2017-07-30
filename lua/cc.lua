@@ -43,5 +43,5 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_ContinentalCoins", fun
     ContinentalCoins:Update(FLAG_REMOVE)
   end
 
-  MenuHelper:LoadFromJsonFile(ContinentalCoins._path .. "menu/options.txt", ContinentalCoins, ContinentalCoins._data)
+  MenuHelper:LoadFromJsonFile(ContinentalCoins._path .. "menu/options.txt", ContinentalCoins, {})
 end)
