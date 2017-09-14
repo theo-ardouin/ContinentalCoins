@@ -2,7 +2,11 @@
   "name" : "Continental Coins",
   "description" : "Allows to add or remove continental coins",
   "author" : "It's a-me, Mario !",
+  "contact": "https://github.com/fredx86",
   "version" : "1.1",
+  "image": "cc.png",
+  "blt_version": 2,
+  "color" : "0.69 0 1",
   "hooks" : [
     {
       "hook_id" : "lib/managers/menumanager",

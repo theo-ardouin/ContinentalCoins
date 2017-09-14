@@ -27,19 +27,19 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_Continenta
 end)
 
 Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_ContinentalCoins", function(menu_manager)
-  MenuCallbackHandler.callback_cc_slider = function(self, item)
+  MenuCallbackHandler.OnSlider = function(self, item)
     ContinentalCoins.coins = item:value()
   end
 
-  MenuCallbackHandler.callback_cc_set = function(self, item)
+  MenuCallbackHandler.OnSet = function(self, item)
     ContinentalCoins:Set(ContinentalCoins.coins)
   end
 
-  MenuCallbackHandler.callback_cc_add = function(self, item)
+  MenuCallbackHandler.OnAdd = function(self, item)
     ContinentalCoins:Update(FLAG_ADD)
   end
 
-  MenuCallbackHandler.callback_cc_remove = function(self, item)
+  MenuCallbackHandler.OnRemove = function(self, item)
     ContinentalCoins:Update(FLAG_REMOVE)
   end
 

@@ -1,6 +1,6 @@
 {
   "menu_id" : "cc_menu",
-  "parent_menu_id" : "lua_mod_options_menu",
+  "parent_menu_id" : "blt_options",
   "title" : "cc_menu_title",
   "description" : "cc_menu_descr",
   "items" : [
@@ -9,7 +9,7 @@
       "id" : "cc_slider",
       "title" : "cc_slider",
       "description" : "cc_slider_descr",
-      "callback" : "callback_cc_slider",
+      "callback" : "OnSlider",
       "value" : "slider_value",
       "default_value" : 10,
       "max" : 800,
@@ -25,21 +25,21 @@
       "id" : "cc_set",
       "title" : "cc_set",
       "description" : "cc_set_descr",
-      "callback" : "callback_cc_set"
+      "callback" : "OnSet"
     },
     {
       "type" : "button",
       "id" : "cc_add",
       "title" : "cc_add",
       "description" : "cc_add_descr",
-      "callback" : "callback_cc_add"
+      "callback" : "OnAdd"
     },
     {
       "type" : "button",
       "id" : "cc_remove",
       "title" : "cc_remove",
       "description" : "cc_remove_descr",
-      "callback" : "callback_cc_remove"
+      "callback" : "OnRemove"
     }
   ]
 }
